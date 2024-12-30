@@ -29,13 +29,13 @@ const Products = [
     {
         id:4,
         productName:"Camera",
-        price:900.0,
+        price:132.0,
         productImage:product4
     },
     {
         id:5,
         productName:"Shirt",
-        price:900.0,
+        price:16.0,
         productImage:product5
     },
     {
@@ -57,4 +57,4 @@ const Products = [
         productImage:product8
     },
 ]
-export default Products
+export default Products;

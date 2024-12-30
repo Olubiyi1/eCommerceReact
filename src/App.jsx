@@ -3,19 +3,22 @@ import NavBar from "./components/NavBar"
 import Shop from "./pages/shop/shop"
 import Cart from "./pages/cart/cart"
 import "./App.css"
+import { ShopContextProvider } from "./context/shop-context";
 
 
 const App = ()=>{
   return(
     <div className="App">
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Shop/>}/>
-          <Route path="/cart" element={<Cart/>}/>
-        </Routes>
+      <ShopContextProvider>
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Shop/>}/>
+            <Route path="/cart" element={<Cart/>}/>
+           </Routes>
 
-      </Router>
+        </Router>
+        </ShopContextProvider>  
        
     </div>
   )
