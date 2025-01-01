@@ -1,0 +1,42 @@
+.cartItem{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    border: 1px solid;
+}
+img{
+    width: 400px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+}
+.countHandler{
+    /* height: 30px; */
+    border:1px solid;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+
+    button{
+        /* padding: 10px; */
+        /* border: none; */
+    }
+    input{
+        /* width: 30px; */
+        /* margin: 0px auto; */
+        /* height: 30px; */
+        /* padding: 10px; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+}

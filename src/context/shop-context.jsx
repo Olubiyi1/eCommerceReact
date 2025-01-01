@@ -5,6 +5,7 @@ import PRODUCTS from "../products"
 
 export const ShopContext = createContext(null);
 
+// this allows changes to be automatically effected instead of adding it manually in the useState
 const getDefaultCart = ()=>{
     let cart = {};
     for (let i =1; i < PRODUCTS.length + 1; i++){

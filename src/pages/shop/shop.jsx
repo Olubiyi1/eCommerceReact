@@ -1,5 +1,5 @@
 import PRODUCTS from "../../products"
-import Product from "./product"
+import Product from "./productProps"
 import "./product.css"
 import "./shop.css"
 
