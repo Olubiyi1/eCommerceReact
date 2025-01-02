@@ -1,32 +1,37 @@
 .products{
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    max-width: 1200px;
-    height: fit-content;
-    margin: 0px auto ;
-   gap: 50px;
+    gap: 30px;
 
-    img{
-        width: 300px;
-    }
     button{
         background-color: white;
         color: black;
         padding: 5px;
-        border-radius: 10px;
-        /* width: 300px; */
-        margin-left: 110px;
-        
+        border-radius: 10px; 
     }
     button:hover{
         background-color: black;
         color: white;
     }
+
     .description{
         display: flex;
         flex-direction: column;
         align-items: center;
-        line-height: 30px;
+        line-height: 20px;
         width: 300px;
+    }
+}
+.allProduct{
+    /* border: 1px solid; */
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+margin-bottom: 30px;
+    img{
+        width: 250px;   
     }
 }
